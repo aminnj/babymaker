@@ -14,3 +14,5 @@
 4. Paste AutoTwopler instructions.txt line from `make_tar.sh` output into the `instructions.txt` file of the `NtupleTools/AutoTwopler` dir.
 
 5. Inside the `AutoTwopler` directory, run `. setup.sh` and `./run.py` to submit jobs to condor.
+
+6. A simple script to merge output files is `merge.sh`
