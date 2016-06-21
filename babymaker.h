@@ -66,6 +66,8 @@ class babyMaker {
         int lumi;
         int run;
 
+        bool is_real_data;
+
         float met;
         float metPhi;
 
