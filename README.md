@@ -16,3 +16,5 @@
 5. Inside the `AutoTwopler` directory, run `. setup.sh` and `./run.py` to submit jobs to condor.
 
 6. A simple script to merge output files is `merge.sh`
+
+7. A simple script to scan over CMS3 and make a histogram with the dataMCplotMaker is in `scan/`.
