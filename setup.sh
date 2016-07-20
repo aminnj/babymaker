@@ -5,4 +5,4 @@ cmsenv
 cd ../
 [[ -d CORE/ ]] || git clone https://github.com/cmstas/CORE
 [[ -d NtupleTools/ ]] || git clone https://github.com/cmstas/NtupleTools
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD
+export LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH

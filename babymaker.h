@@ -66,6 +66,9 @@ class babyMaker {
         int lumi;
         int run;
 
+        int npu;
+        int truenumint;
+
         bool is_real_data;
 
         float met;
@@ -75,12 +78,17 @@ class babyMaker {
 
         bool pass_golden_json;
 
-        bool pass_double_photon_trigger;
-        bool pass_single_photon_trigger;
+        bool fail_filter;
+        LorentzVector failing_jet;
+        vector<LorentzVector> failing_jets;
 
         vector<LorentzVector> jets;
+        vector<LorentzVector> genjets;
 
-        vector<LorentzVector> photons;
+        float htall, ht40, ht30, ht20;
+        float mhtall, mht40, mht30, mht20;
+
+        int nlepsW;
 
 
 };
